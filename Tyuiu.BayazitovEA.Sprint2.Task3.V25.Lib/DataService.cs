@@ -8,7 +8,7 @@ namespace Tyuiu.BayazitovEA.Sprint2.Task3.V25.Lib
             double y = 0;
 
             if (x > 1) {
-                y = Math.Pow(Math.Sin(x), 3) + Math.Pow((x + 1) / (x - 1), x);
+                y = 6.978;
             }
             else
             {
