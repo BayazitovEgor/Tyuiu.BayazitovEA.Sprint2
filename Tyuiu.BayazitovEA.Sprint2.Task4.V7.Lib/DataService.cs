@@ -16,7 +16,7 @@ namespace Tyuiu.BayazitovEA.Sprint2.Task4.V7.Lib
             {
                 z = Math.Pow(x, 3) + 2 * x + (6 + 4 / (Math.Pow(y, 2)));
             }
-            return Math.Round(y, 3);
+            return Math.Round(z, 3);
         }
     }
     }
