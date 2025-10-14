@@ -14,7 +14,7 @@ namespace Tyuiu.BayazitovEA.Sprint2.Task5.V14.Lib
                 case 2: return "вторник";
                 case 3: return "среда";
                 case 4: return "четверг";
-                case 5: return "пятница";
+                case 5: return "Пятница";
                 case 6: return "суббота";
                 case 7: return "воскресенье";
                 default: return "ошибка";
