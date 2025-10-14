@@ -1,5 +1,5 @@
-﻿using Tyuiu.BayazitovEA.Sprint2.Task3.V25.Lib;
-namespace Tyuiu.BayazitovEA.Sprint2.Task3.V25.Test
+﻿using Tyuiu.BayazitovEA.Sprint2.Task4.V7.Lib;
+namespace Tyuiu.BayazitovEA.Sprint2.Task4.V7.Test
 {
     [TestClass]
     public sealed class DataServiceTest
@@ -8,9 +8,10 @@ namespace Tyuiu.BayazitovEA.Sprint2.Task3.V25.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double x = 1;
-            
-            double res = ds.Calculate(x);
+            double x = 2;
+
+            double y = 2;
+            double res = ds.Calculate(x,y);
             double wait = 2;
             Assert.AreEqual(wait, res);
         }
